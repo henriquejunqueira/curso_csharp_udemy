@@ -11,7 +11,8 @@ namespace EntradaDados {
 
             string s = Console.ReadLine();
 
-            string[] v = s.Split(' ');
+            //string[] v = s.Split(' ');
+            string[] v = Console.ReadLine().Split();
             string a = v[0];
             string b = v[1];
             string c = v[2];
